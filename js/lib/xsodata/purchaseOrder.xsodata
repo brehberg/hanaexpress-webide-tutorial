@@ -1,8 +1,8 @@
 service {
-	"PurchaseOrder.Header"
+	"PO.Header"
 	  as "POHeader" navigates ("Items" as "POItem");
 
-	"PurchaseOrder.Item"
+	"PO.Item"
 	  as "POItem";
 
 	association "Items" principal  "POHeader"("PURCHASEORDERID")
