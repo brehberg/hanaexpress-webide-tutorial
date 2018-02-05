@@ -4,7 +4,7 @@
 function fillSessionInfo(){
 	var body = "";
 	body = JSON.stringify({
-		"session" : [{"UserName": $.session.getUsername(), "Language": $.session.language}]
+		"session" : [{"UserName": $.session.getUsername(), "Language": $.session.language, "test-key": "test-value"}]
 	});
 	$.response.contentType = "application/json";
 	$.response.setBody(body);

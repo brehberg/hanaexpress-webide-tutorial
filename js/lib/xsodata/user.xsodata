@@ -1,4 +1,4 @@
 service {
-	"User.Details" as "Users"
-	  create using "xsjs:usersCreateMethod.xsjslib::usersCreate";
+	"UserData.User" as "Users";
+	 // create using "xsjs:usersCreateMethod.xsjslib::usersCreate";
 }
